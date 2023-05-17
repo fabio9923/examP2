@@ -373,6 +373,7 @@
   </ItemDefinitionGroup>
   <ItemGroup />
   <ItemGroup>
+    <ClCompile Include="camara.cpp" />
     <ClCompile Include="juego.cpp" />
     <ClCompile Include="Tu7.cpp" />
   </ItemGroup>
@@ -380,6 +381,7 @@
     <None Include="Tu7.fx" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="camara.h" />
     <ClInclude Include="estr.h" />
     <ClInclude Include="juego.h" />
     <ClInclude Include="lib.h" />
