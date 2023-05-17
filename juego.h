@@ -1,5 +1,5 @@
 #pragma once
-#include "lib.h"
+#include "camara.h"
 #include "estr.h"
 
 HINSTANCE							g_hInst;
@@ -26,6 +26,7 @@ XMMATRIX							g_World;
 XMMATRIX							g_View;
 XMMATRIX							g_Projection;
 XMFLOAT4							g_vMeshColor;
+Camara*								camara;
 
 int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCmdLine, int nCmdShow);
 HRESULT InitWindow(HINSTANCE hInstance, int nCmdShow);

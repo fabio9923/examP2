@@ -375,7 +375,6 @@
   <ItemGroup>
     <ClCompile Include="camara.cpp" />
     <ClCompile Include="juego.cpp" />
-    <ClCompile Include="Tu7.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Tu7.fx" />

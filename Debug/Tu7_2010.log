@@ -1,518 +1,121 @@
-﻿  Tu7.cpp
-D:\Include\dxgitype.h(12,1): warning C4005: 'DXGI_STATUS_OCCLUDED': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56388): message : vea la definición anterior de 'DXGI_STATUS_OCCLUDED'
-D:\Include\dxgitype.h(13,1): warning C4005: 'DXGI_STATUS_CLIPPED': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56397): message : vea la definición anterior de 'DXGI_STATUS_CLIPPED'
-D:\Include\dxgitype.h(14,1): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56406): message : vea la definición anterior de 'DXGI_STATUS_NO_REDIRECTION'
-D:\Include\dxgitype.h(15,1): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56415): message : vea la definición anterior de 'DXGI_STATUS_NO_DESKTOP_ACCESS'
-D:\Include\dxgitype.h(16,1): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56424): message : vea la definición anterior de 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'
-D:\Include\dxgitype.h(17,1): warning C4005: 'DXGI_STATUS_MODE_CHANGED': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56433): message : vea la definición anterior de 'DXGI_STATUS_MODE_CHANGED'
-D:\Include\dxgitype.h(18,1): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56442): message : vea la definición anterior de 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'
-D:\Include\dxgitype.h(21,1): warning C4005: 'DXGI_ERROR_INVALID_CALL': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56457): message : vea la definición anterior de 'DXGI_ERROR_INVALID_CALL'
-D:\Include\dxgitype.h(22,1): warning C4005: 'DXGI_ERROR_NOT_FOUND': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56466): message : vea la definición anterior de 'DXGI_ERROR_NOT_FOUND'
-D:\Include\dxgitype.h(23,1): warning C4005: 'DXGI_ERROR_MORE_DATA': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56475): message : vea la definición anterior de 'DXGI_ERROR_MORE_DATA'
-D:\Include\dxgitype.h(24,1): warning C4005: 'DXGI_ERROR_UNSUPPORTED': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56484): message : vea la definición anterior de 'DXGI_ERROR_UNSUPPORTED'
-D:\Include\dxgitype.h(25,1): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56493): message : vea la definición anterior de 'DXGI_ERROR_DEVICE_REMOVED'
-D:\Include\dxgitype.h(26,1): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56502): message : vea la definición anterior de 'DXGI_ERROR_DEVICE_HUNG'
-D:\Include\dxgitype.h(27,1): warning C4005: 'DXGI_ERROR_DEVICE_RESET': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56512): message : vea la definición anterior de 'DXGI_ERROR_DEVICE_RESET'
-D:\Include\dxgitype.h(28,1): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56521): message : vea la definición anterior de 'DXGI_ERROR_WAS_STILL_DRAWING'
-D:\Include\dxgitype.h(29,1): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56531): message : vea la definición anterior de 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'
-D:\Include\dxgitype.h(30,1): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56540): message : vea la definición anterior de 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'
-D:\Include\dxgitype.h(31,1): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56550): message : vea la definición anterior de 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'
-D:\Include\dxgitype.h(32,1): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56559): message : vea la definición anterior de 'DXGI_ERROR_NONEXCLUSIVE'
-D:\Include\dxgitype.h(33,1): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56568): message : vea la definición anterior de 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'
-D:\Include\dxgitype.h(34,1): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56578): message : vea la definición anterior de 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'
-D:\Include\dxgitype.h(35,1): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56587): message : vea la definición anterior de 'DXGI_ERROR_REMOTE_OUTOFMEMORY'
-D:\Include\d3d11.h(917,1): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56865): message : vea la definición anterior de 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
-D:\Include\d3d11.h(918,1): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56874): message : vea la definición anterior de 'D3D11_ERROR_FILE_NOT_FOUND'
-D:\Include\d3d11.h(919,1): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56884): message : vea la definición anterior de 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'
-D:\Include\d3d11.h(920,1): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56893): message : vea la definición anterior de 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'
-D:\Include\d3d10.h(608,1): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56841): message : vea la definición anterior de 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
-D:\Include\d3d10.h(609,1): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56850): message : vea la definición anterior de 'D3D10_ERROR_FILE_NOT_FOUND'
-D:\Include\xnamath.h(2662,52): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2662,64): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2662,76): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2662,88): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2663,52): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2663,64): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2663,76): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2664,52): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2664,64): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2664,76): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2665,52): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2666,64): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2667,76): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2668,88): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2689,46): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2689,58): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2689,70): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2689,82): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2690,88): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2691,88): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2694,88): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2695,88): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2698,64): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2702,76): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2702,88): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2712,65): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2712,91): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2713,52): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2713,78): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2715,52): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2716,52): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2716,65): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2717,52): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2717,65): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2717,78): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2727,54): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2728,56): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2729,58): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2730,54): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2730,65): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2731,56): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2731,67): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2732,54): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2732,67): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2742,60): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2742,79): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2743,70): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamath.h(2754,73): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamathconvert.inl(2254,71): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamathconvert.inl(4523,69): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamathconvert.inl(4577,68): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamathconvert.inl(4639,65): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamathconvert.inl(4707,64): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamathconvert.inl(4770,64): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamathconvert.inl(4832,63): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamathvector.inl(1269,45): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamathvector.inl(1269,56): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamathvector.inl(1269,67): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamathvector.inl(1269,78): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamathmisc.inl(518,43): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamathmisc.inl(519,40): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-D:\Include\xnamathmisc.inl(519,51): warning C4838: la conversión de 'unsigned int' en 'INT' requiere una conversión de restricción
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1517,105): error C2668: 'DirectX::XMVectorSwizzle': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1221,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSwizzle(DirectX::FXMVECTOR,uint32_t,uint32_t,uint32_t,uint32_t)'
-D:\Include\xnamath.h(2899,20): message : o       'XMVECTOR XMVectorSwizzle(FXMVECTOR,UINT,UINT,UINT,UINT)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1517,105): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR, uint32_t, uint32_t, uint32_t, uint32_t)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1526,119): error C2668: 'DirectX::XMVectorSwizzle': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1221,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSwizzle(DirectX::FXMVECTOR,uint32_t,uint32_t,uint32_t,uint32_t)'
-D:\Include\xnamath.h(2899,20): message : o       'XMVECTOR XMVectorSwizzle(FXMVECTOR,UINT,UINT,UINT,UINT)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1526,119): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR, uint32_t, uint32_t, uint32_t, uint32_t)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1535,75): error C2668: 'DirectX::XMVectorRotateLeft': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1513,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorRotateLeft(DirectX::FXMVECTOR,uint32_t)'
-D:\Include\xnamath.h(2859,20): message : o       'XMVECTOR XMVectorRotateLeft(FXMVECTOR,UINT)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1535,75): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR, uint32_t)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1535,86): error C2661: 'XMVectorSelect': ninguna función sobrecargada acepta 2 argumentos
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2557,5): error C2668: 'DirectX::XMVector4LessOrEqual': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMath.h(1393,29): message : puede ser 'bool DirectX::XMVector4LessOrEqual(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(9846,16): message : o       'BOOL XMVector4LessOrEqual(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2557,5): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR, DirectX::FXMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4203,39): error C2668: 'DirectX::XMVectorTruncate': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2376,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorTruncate(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2128,20): message : o       'XMVECTOR XMVectorTruncate(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4203,39): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4238,36): error C2668: 'DirectX::XMVectorRound': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2326,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorRound(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2086,20): message : o       'XMVECTOR XMVectorRound(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4238,36): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4296,37): error C2668: 'DirectX::XMVectorModAngles': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4212,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorModAngles(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(3188,20): message : o       'XMVECTOR XMVectorModAngles(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4296,37): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4389,37): error C2668: 'DirectX::XMVectorModAngles': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4212,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorModAngles(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(3188,20): message : o       'XMVECTOR XMVectorModAngles(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4389,37): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4517,37): error C2668: 'DirectX::XMVectorModAngles': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4212,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorModAngles(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(3188,20): message : o       'XMVECTOR XMVectorModAngles(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4517,37): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4610,54): error C2668: 'DirectX::XMVectorSplatW': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(294,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSplatW(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(244,20): message : o       'XMVECTOR XMVectorSplatW(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4610,54): message : al hacer coincidir la lista de argumentos '(const DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4614,48): error C2668: 'DirectX::XMVectorSplatX': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(229,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSplatX(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(184,20): message : o       'XMVECTOR XMVectorSplatX(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4614,48): message : al hacer coincidir la lista de argumentos '(const DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4615,48): error C2668: 'DirectX::XMVectorSplatY': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(252,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSplatY(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(204,20): message : o       'XMVECTOR XMVectorSplatY(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4615,48): message : al hacer coincidir la lista de argumentos '(const DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4616,53): error C2668: 'DirectX::XMVectorSplatZ': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(273,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSplatZ(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(224,20): message : o       'XMVECTOR XMVectorSplatZ(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4616,53): message : al hacer coincidir la lista de argumentos '(const DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4618,47): error C2668: 'DirectX::XMVectorMultiply': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2979,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorMultiply(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2594,20): message : o       'XMVECTOR XMVectorMultiply(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4618,47): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4620,26): error C2668: 'DirectX::XMVectorRound': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2326,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorRound(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2086,20): message : o       'XMVECTOR XMVectorRound(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4620,26): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4622,61): error C2668: 'DirectX::XMVectorNegativeMultiplySubtract': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(3066,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorNegativeMultiplySubtract(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2662,20): message : o       'XMVECTOR XMVectorNegativeMultiplySubtract(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4622,61): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR, DirectX::FXMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4624,33): error C2668: 'DirectX::XMVectorAbs': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4157,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorAbs(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(3131,20): message : o       'XMVECTOR XMVectorAbs(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4624,33): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4626,53): error C2668: 'DirectX::XMVectorNegativeMultiplySubtract': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(3066,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorNegativeMultiplySubtract(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2662,20): message : o       'XMVECTOR XMVectorNegativeMultiplySubtract(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4626,53): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4639,43): error C2668: 'DirectX::XMVectorMultiply': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2979,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorMultiply(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2594,20): message : o       'XMVECTOR XMVectorMultiply(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4639,43): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4641,52): error C2668: 'DirectX::XMVectorSplatW': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(294,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSplatW(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(244,20): message : o       'XMVECTOR XMVectorSplatW(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4641,52): message : al hacer coincidir la lista de argumentos '(const DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4642,52): error C2668: 'DirectX::XMVectorSplatZ': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(273,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSplatZ(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(224,20): message : o       'XMVECTOR XMVectorSplatZ(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4642,52): message : al hacer coincidir la lista de argumentos '(const DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4643,52): error C2668: 'DirectX::XMVectorSplatX': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(229,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSplatX(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(184,20): message : o       'XMVECTOR XMVectorSplatX(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4643,52): message : al hacer coincidir la lista de argumentos '(const DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4644,52): error C2668: 'DirectX::XMVectorSplatW': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(294,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSplatW(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(244,20): message : o       'XMVECTOR XMVectorSplatW(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4644,52): message : al hacer coincidir la lista de argumentos '(const DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4645,52): error C2668: 'DirectX::XMVectorSplatY': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(252,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSplatY(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(204,20): message : o       'XMVECTOR XMVectorSplatY(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4645,52): message : al hacer coincidir la lista de argumentos '(const DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4646,52): error C2668: 'DirectX::XMVectorSplatZ': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(273,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSplatZ(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(224,20): message : o       'XMVECTOR XMVectorSplatZ(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4646,52): message : al hacer coincidir la lista de argumentos '(const DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4647,52): error C2668: 'DirectX::XMVectorSplatY': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(252,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSplatY(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(204,20): message : o       'XMVECTOR XMVectorSplatY(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4647,52): message : al hacer coincidir la lista de argumentos '(const DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4648,52): error C2668: 'DirectX::XMVectorSplatX': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(229,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSplatX(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(184,20): message : o       'XMVECTOR XMVectorSplatX(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4648,52): message : al hacer coincidir la lista de argumentos '(const DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4650,50): error C2668: 'DirectX::XMVectorAndInt': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2609,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorAndInt(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2284,20): message : o       'XMVECTOR XMVectorAndInt(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4650,50): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, const DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4651,47): error C2668: 'DirectX::XMVectorEqualInt': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1641,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorEqualInt(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(1515,20): message : o       'XMVECTOR XMVectorEqualInt(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4651,47): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4653,49): error C2668: 'DirectX::XMVectorMultiplyAdd': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(3002,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorMultiplyAdd(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2616,20): message : o       'XMVECTOR XMVectorMultiplyAdd(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4653,49): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4654,49): error C2668: 'DirectX::XMVectorMultiplyAdd': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(3002,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorMultiplyAdd(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2616,20): message : o       'XMVECTOR XMVectorMultiplyAdd(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4654,49): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4655,39): error C2668: 'DirectX::XMVectorMultiplyAdd': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(3002,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorMultiplyAdd(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2616,20): message : o       'XMVECTOR XMVectorMultiplyAdd(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4655,39): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4656,39): error C2668: 'DirectX::XMVectorMultiplyAdd': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(3002,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorMultiplyAdd(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2616,20): message : o       'XMVECTOR XMVectorMultiplyAdd(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4656,39): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4657,32): error C2668: 'DirectX::XMVectorMultiply': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2979,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorMultiply(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2594,20): message : o       'XMVECTOR XMVectorMultiply(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4657,32): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4658,39): error C2668: 'DirectX::XMVectorMultiplyAdd': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(3002,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorMultiplyAdd(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2616,20): message : o       'XMVECTOR XMVectorMultiplyAdd(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4658,39): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4659,38): error C2668: 'DirectX::XMVectorMultiplyAdd': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(3002,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorMultiplyAdd(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2616,20): message : o       'XMVECTOR XMVectorMultiplyAdd(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4659,38): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4660,55): error C2668: 'DirectX::XMVectorInBounds': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2063,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorInBounds(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(1889,20): message : o       'XMVECTOR XMVectorInBounds(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4660,55): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4661,39): error C2668: 'DirectX::XMVectorMultiplyAdd': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(3002,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorMultiplyAdd(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2616,20): message : o       'XMVECTOR XMVectorMultiplyAdd(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4661,39): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4663,41): error C2668: 'DirectX::XMVectorSelect': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1426,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSelect(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(1347,20): message : o       'XMVECTOR XMVectorSelect(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4663,41): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4664,48): error C2668: 'DirectX::XMVectorSelect': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1426,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSelect(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(1347,20): message : o       'XMVECTOR XMVectorSelect(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4664,48): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, const DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4666,35): error C2668: 'DirectX::XMVectorNegate': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2745,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorNegate(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2418,20): message : o       'XMVECTOR XMVectorNegate(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4666,35): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4667,37): error C2668: 'DirectX::XMVectorDivide': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(3033,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorDivide(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2641,20): message : o       'XMVECTOR XMVectorDivide(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4667,37): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4668,29): error C2668: 'DirectX::XMVectorDivide': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(3033,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorDivide(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2641,20): message : o       'XMVECTOR XMVectorDivide(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4668,29): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4670,45): error C2668: 'DirectX::XMVectorEqual': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1544,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorEqual(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(1429,20): message : o       'XMVECTOR XMVectorEqual(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4670,45): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4672,54): error C2668: 'DirectX::XMVectorSelect': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1426,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSelect(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(1347,20): message : o       'XMVECTOR XMVectorSelect(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4672,54): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4674,50): error C2668: 'DirectX::XMVectorSelect': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1426,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSelect(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(1347,20): message : o       'XMVECTOR XMVectorSelect(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4674,50): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4712,33): error C2668: 'DirectX::XMVectorExp': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(3598,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorExp(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2928,19): message : o       'XMVECTOR XMVectorExp(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4712,33): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4713,33): error C2668: 'DirectX::XMVectorExp': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(3598,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorExp(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2928,19): message : o       'XMVECTOR XMVectorExp(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4713,33): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4749,33): error C2668: 'DirectX::XMVectorExp': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(3598,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorExp(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2928,19): message : o       'XMVECTOR XMVectorExp(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4749,33): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4750,33): error C2668: 'DirectX::XMVectorExp': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(3598,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorExp(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2928,19): message : o       'XMVECTOR XMVectorExp(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4750,33): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4782,22): error C2668: 'DirectX::XMVectorExp': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(3598,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorExp(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2928,19): message : o       'XMVECTOR XMVectorExp(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4782,22): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5066,32): error C2668: 'DirectX::XMVectorAbs': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4157,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorAbs(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(3131,20): message : o       'XMVECTOR XMVectorAbs(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5066,32): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5168,49): error C2668: 'DirectX::XMVectorEqual': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1544,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorEqual(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(1429,20): message : o       'XMVECTOR XMVectorEqual(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5168,49): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5169,49): error C2668: 'DirectX::XMVectorEqual': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1544,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorEqual(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(1429,20): message : o       'XMVECTOR XMVectorEqual(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5169,49): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5170,64): error C2668: 'DirectX::XMVectorAndInt': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2609,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorAndInt(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2284,20): message : o       'XMVECTOR XMVectorAndInt(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5170,64): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR, const DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5171,53): error C2668: 'DirectX::XMVectorEqualInt': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1641,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorEqualInt(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(1515,20): message : o       'XMVECTOR XMVectorEqualInt(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5171,53): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5172,52): error C2668: 'DirectX::XMVectorIsInfinite': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2210,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorIsInfinite(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2009,20): message : o       'XMVECTOR XMVectorIsInfinite(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5172,52): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5173,52): error C2668: 'DirectX::XMVectorIsInfinite': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2210,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorIsInfinite(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2009,20): message : o       'XMVECTOR XMVectorIsInfinite(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5173,52): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5175,58): error C2668: 'DirectX::XMVectorAndInt': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2609,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorAndInt(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2284,20): message : o       'XMVECTOR XMVectorAndInt(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5175,58): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR, const DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5176,33): error C2668: 'DirectX::XMVectorOrInt': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2660,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorOrInt(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2334,20): message : o       'XMVECTOR XMVectorOrInt(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5176,33): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5177,47): error C2668: 'DirectX::XMVectorOrInt': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2660,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorOrInt(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2334,20): message : o       'XMVECTOR XMVectorOrInt(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5177,47): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5178,49): error C2668: 'DirectX::XMVectorOrInt': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2660,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorOrInt(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2334,20): message : o       'XMVECTOR XMVectorOrInt(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5178,49): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5179,59): error C2668: 'DirectX::XMVectorOrInt': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2660,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorOrInt(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2334,20): message : o       'XMVECTOR XMVectorOrInt(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5179,59): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5181,56): error C2668: 'DirectX::XMVectorSelect': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1426,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSelect(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(1347,20): message : o       'XMVECTOR XMVectorSelect(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5181,56): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5182,73): error C2668: 'DirectX::XMVectorSelect': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1426,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSelect(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(1347,20): message : o       'XMVECTOR XMVectorSelect(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5182,73): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5183,53): error C2668: 'DirectX::XMVectorSelect': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1426,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSelect(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(1347,20): message : o       'XMVECTOR XMVectorSelect(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5183,53): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5184,74): error C2668: 'DirectX::XMVectorSelect': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1426,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSelect(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(1347,20): message : o       'XMVECTOR XMVectorSelect(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5184,74): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5185,64): error C2668: 'DirectX::XMVectorSelect': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1426,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSelect(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(1347,20): message : o       'XMVECTOR XMVectorSelect(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5185,64): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5186,61): error C2668: 'DirectX::XMVectorSelect': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1426,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSelect(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(1347,20): message : o       'XMVECTOR XMVectorSelect(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5186,61): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5187,63): error C2668: 'DirectX::XMVectorEqualInt': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1641,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorEqualInt(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(1515,20): message : o       'XMVECTOR XMVectorEqualInt(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5187,63): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5189,37): error C2668: 'DirectX::XMVectorDivide': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(3033,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorDivide(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2641,20): message : o       'XMVECTOR XMVectorDivide(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5189,37): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR, DirectX::FXMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5191,33): error C2668: 'DirectX::XMVectorATan': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5006,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorATan(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(4243,19): message : o       'XMVECTOR XMVectorATan(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5191,33): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5193,60): error C2668: 'DirectX::XMVectorSelect': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1426,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSelect(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(1347,20): message : o       'XMVECTOR XMVectorSelect(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5193,60): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, const DirectX::XMVECTORU32, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5194,28): error C2668: 'DirectX::XMVectorAdd': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2773,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorAdd(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2446,20): message : o       'XMVECTOR XMVectorAdd(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5194,28): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5196,54): error C2668: 'DirectX::XMVectorSelect': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1426,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSelect(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(1347,20): message : o       'XMVECTOR XMVectorSelect(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5196,54): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5245,37): error C2668: 'DirectX::XMVectorModAngles': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4212,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorModAngles(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(3188,20): message : o       'XMVECTOR XMVectorModAngles(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5245,37): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5323,37): error C2668: 'DirectX::XMVectorModAngles': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4212,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorModAngles(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(3188,20): message : o       'XMVECTOR XMVectorModAngles(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5323,37): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5429,37): error C2668: 'DirectX::XMVectorModAngles': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4212,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorModAngles(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(3188,20): message : o       'XMVECTOR XMVectorModAngles(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5429,37): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5499,65): error C2668: 'DirectX::XMVectorSplatW': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(294,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSplatW(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(244,20): message : o       'XMVECTOR XMVectorSplatW(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5499,65): message : al hacer coincidir la lista de argumentos '(const DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5501,48): error C2668: 'DirectX::XMVectorMultiply': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2979,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorMultiply(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2594,20): message : o       'XMVECTOR XMVectorMultiply(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5501,48): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5502,26): error C2668: 'DirectX::XMVectorRound': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2326,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorRound(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2086,20): message : o       'XMVECTOR XMVectorRound(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5502,26): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5504,58): error C2668: 'DirectX::XMVectorNegativeMultiplySubtract': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(3066,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorNegativeMultiplySubtract(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2662,20): message : o       'XMVECTOR XMVectorNegativeMultiplySubtract(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5504,58): message : al hacer coincidir la lista de argumentos '(const DirectX::XMVECTOR, DirectX::XMVECTOR, DirectX::FXMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5506,58): error C2668: 'DirectX::XMVectorSplatX': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(229,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSplatX(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(184,20): message : o       'XMVECTOR XMVectorSplatX(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5506,58): message : al hacer coincidir la lista de argumentos '(const DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5507,58): error C2668: 'DirectX::XMVectorSplatY': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(252,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSplatY(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(204,20): message : o       'XMVECTOR XMVectorSplatY(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5507,58): message : al hacer coincidir la lista de argumentos '(const DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5508,58): error C2668: 'DirectX::XMVectorSplatZ': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(273,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorSplatZ(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(224,20): message : o       'XMVECTOR XMVectorSplatZ(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5508,58): message : al hacer coincidir la lista de argumentos '(const DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5510,64): error C2668: 'DirectX::XMVectorNegativeMultiplySubtract': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(3066,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorNegativeMultiplySubtract(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2662,20): message : o       'XMVECTOR XMVectorNegativeMultiplySubtract(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5510,64): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5511,42): error C2668: 'DirectX::XMVectorMultiply': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2979,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorMultiply(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2594,20): message : o       'XMVECTOR XMVectorMultiply(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5511,42): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5512,44): error C2668: 'DirectX::XMVectorMultiply': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2979,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorMultiply(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2594,20): message : o       'XMVECTOR XMVectorMultiply(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5512,44): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5513,44): error C2668: 'DirectX::XMVectorMultiply': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2979,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorMultiply(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2594,20): message : o       'XMVECTOR XMVectorMultiply(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5513,44): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5515,44): error C2668: 'DirectX::XMVectorReciprocalEst': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(3121,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorReciprocalEst(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2712,20): message : o       'XMVECTOR XMVectorReciprocalEst(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5515,44): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5516,52): error C2668: 'DirectX::XMVectorMultiplyAdd': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(3002,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorMultiplyAdd(DirectX::FXMVECTOR,DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2616,20): message : o       'XMVECTOR XMVectorMultiplyAdd(FXMVECTOR,FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5516,52): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5518,33): error C2668: 'DirectX::XMVectorMultiply': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2979,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorMultiply(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2594,20): message : o       'XMVECTOR XMVectorMultiply(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5518,33): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5726,32): error C2668: 'DirectX::XMVectorAbs': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(4157,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorAbs(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(3131,20): message : o       'XMVECTOR XMVectorAbs(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5726,32): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5801,49): error C2668: 'DirectX::XMVectorEqual': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1544,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorEqual(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(1429,20): message : o       'XMVECTOR XMVectorEqual(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5801,49): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR, const DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5802,49): error C2668: 'DirectX::XMVectorEqual': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1544,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorEqual(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(1429,20): message : o       'XMVECTOR XMVectorEqual(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5802,49): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR, const DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5803,64): error C2668: 'DirectX::XMVectorAndInt': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2609,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorAndInt(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2284,20): message : o       'XMVECTOR XMVectorAndInt(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5803,64): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR, const DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5804,53): error C2668: 'DirectX::XMVectorEqualInt': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(1641,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorEqualInt(DirectX::FXMVECTOR,DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(1515,20): message : o       'XMVECTOR XMVectorEqualInt(FXMVECTOR,FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5804,53): message : al hacer coincidir la lista de argumentos '(DirectX::XMVECTOR, const DirectX::XMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5805,52): error C2668: 'DirectX::XMVectorIsInfinite': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2210,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorIsInfinite(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2009,20): message : o       'XMVECTOR XMVectorIsInfinite(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5805,52): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5806,52): error C2668: 'DirectX::XMVectorIsInfinite': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(2210,29): message : puede ser 'DirectX::XMVECTOR DirectX::XMVectorIsInfinite(DirectX::FXMVECTOR)'
-D:\Include\xnamathvector.inl(2009,20): message : o       'XMVECTOR XMVectorIsInfinite(FXMVECTOR)' [se encontró con la búsqueda dependiente de argumentos]
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5806,52): message : al hacer coincidir la lista de argumentos '(DirectX::FXMVECTOR)'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5808,58): error C2668: 'DirectX::XMVectorAndInt': llamada ambigua a una función sobrecargada
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\DirectXMathVector.inl(5808,58): fatal error C1003: el recuento de errores supera 100; se detiene la compilación
+﻿  juego.cpp
+D:\CodeDependenciesAndStuff\DXSDK\Include\dxgitype.h(12,1): warning C4005: 'DXGI_STATUS_OCCLUDED': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58019): message : see previous definition of 'DXGI_STATUS_OCCLUDED'
+D:\CodeDependenciesAndStuff\DXSDK\Include\dxgitype.h(13,1): warning C4005: 'DXGI_STATUS_CLIPPED': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58028): message : see previous definition of 'DXGI_STATUS_CLIPPED'
+D:\CodeDependenciesAndStuff\DXSDK\Include\dxgitype.h(14,1): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58037): message : see previous definition of 'DXGI_STATUS_NO_REDIRECTION'
+D:\CodeDependenciesAndStuff\DXSDK\Include\dxgitype.h(15,1): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58046): message : see previous definition of 'DXGI_STATUS_NO_DESKTOP_ACCESS'
+D:\CodeDependenciesAndStuff\DXSDK\Include\dxgitype.h(16,1): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58055): message : see previous definition of 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'
+D:\CodeDependenciesAndStuff\DXSDK\Include\dxgitype.h(17,1): warning C4005: 'DXGI_STATUS_MODE_CHANGED': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58064): message : see previous definition of 'DXGI_STATUS_MODE_CHANGED'
+D:\CodeDependenciesAndStuff\DXSDK\Include\dxgitype.h(18,1): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58073): message : see previous definition of 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'
+D:\CodeDependenciesAndStuff\DXSDK\Include\dxgitype.h(21,1): warning C4005: 'DXGI_ERROR_INVALID_CALL': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58088): message : see previous definition of 'DXGI_ERROR_INVALID_CALL'
+D:\CodeDependenciesAndStuff\DXSDK\Include\dxgitype.h(22,1): warning C4005: 'DXGI_ERROR_NOT_FOUND': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58097): message : see previous definition of 'DXGI_ERROR_NOT_FOUND'
+D:\CodeDependenciesAndStuff\DXSDK\Include\dxgitype.h(23,1): warning C4005: 'DXGI_ERROR_MORE_DATA': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58106): message : see previous definition of 'DXGI_ERROR_MORE_DATA'
+D:\CodeDependenciesAndStuff\DXSDK\Include\dxgitype.h(24,1): warning C4005: 'DXGI_ERROR_UNSUPPORTED': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58115): message : see previous definition of 'DXGI_ERROR_UNSUPPORTED'
+D:\CodeDependenciesAndStuff\DXSDK\Include\dxgitype.h(25,1): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58124): message : see previous definition of 'DXGI_ERROR_DEVICE_REMOVED'
+D:\CodeDependenciesAndStuff\DXSDK\Include\dxgitype.h(26,1): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58133): message : see previous definition of 'DXGI_ERROR_DEVICE_HUNG'
+D:\CodeDependenciesAndStuff\DXSDK\Include\dxgitype.h(27,1): warning C4005: 'DXGI_ERROR_DEVICE_RESET': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58143): message : see previous definition of 'DXGI_ERROR_DEVICE_RESET'
+D:\CodeDependenciesAndStuff\DXSDK\Include\dxgitype.h(28,1): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58152): message : see previous definition of 'DXGI_ERROR_WAS_STILL_DRAWING'
+D:\CodeDependenciesAndStuff\DXSDK\Include\dxgitype.h(29,1): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58162): message : see previous definition of 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'
+D:\CodeDependenciesAndStuff\DXSDK\Include\dxgitype.h(30,1): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58171): message : see previous definition of 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'
+D:\CodeDependenciesAndStuff\DXSDK\Include\dxgitype.h(31,1): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58181): message : see previous definition of 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'
+D:\CodeDependenciesAndStuff\DXSDK\Include\dxgitype.h(32,1): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58190): message : see previous definition of 'DXGI_ERROR_NONEXCLUSIVE'
+D:\CodeDependenciesAndStuff\DXSDK\Include\dxgitype.h(33,1): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58199): message : see previous definition of 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'
+D:\CodeDependenciesAndStuff\DXSDK\Include\dxgitype.h(34,1): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58209): message : see previous definition of 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'
+D:\CodeDependenciesAndStuff\DXSDK\Include\dxgitype.h(35,1): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58218): message : see previous definition of 'DXGI_ERROR_REMOTE_OUTOFMEMORY'
+D:\CodeDependenciesAndStuff\DXSDK\Include\d3d11.h(917,1): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58524): message : see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+D:\CodeDependenciesAndStuff\DXSDK\Include\d3d11.h(918,1): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58533): message : see previous definition of 'D3D11_ERROR_FILE_NOT_FOUND'
+D:\CodeDependenciesAndStuff\DXSDK\Include\d3d11.h(919,1): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58543): message : see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'
+D:\CodeDependenciesAndStuff\DXSDK\Include\d3d11.h(920,1): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58552): message : see previous definition of 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'
+D:\CodeDependenciesAndStuff\DXSDK\Include\d3d10.h(608,1): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58500): message : see previous definition of 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+D:\CodeDependenciesAndStuff\DXSDK\Include\d3d10.h(609,1): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58509): message : see previous definition of 'D3D10_ERROR_FILE_NOT_FOUND'
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2662,52): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2662,64): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2662,76): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2662,88): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2663,52): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2663,64): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2663,76): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2664,52): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2664,64): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2664,76): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2665,52): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2666,64): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2667,76): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2668,88): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2689,46): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2689,58): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2689,70): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2689,82): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2690,88): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2691,88): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2694,88): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2695,88): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2698,64): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2702,76): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2702,88): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2712,65): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2712,91): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2713,52): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2713,78): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2715,52): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2716,52): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2716,65): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2717,52): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2717,65): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2717,78): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2727,54): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2728,56): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2729,58): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2730,54): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2730,65): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2731,56): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2731,67): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2732,54): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2732,67): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2742,60): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2742,79): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2743,70): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamath.h(2754,73): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamathconvert.inl(2254,71): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamathconvert.inl(4523,69): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamathconvert.inl(4577,68): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamathconvert.inl(4639,65): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamathconvert.inl(4707,64): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamathconvert.inl(4770,64): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamathconvert.inl(4832,63): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamathvector.inl(1269,45): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamathvector.inl(1269,56): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamathvector.inl(1269,67): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamathvector.inl(1269,78): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamathmisc.inl(518,43): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamathmisc.inl(519,40): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\CodeDependenciesAndStuff\DXSDK\Include\xnamathmisc.inl(519,51): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+D:\Temp\examP2\juego.cpp(115,24): warning C4316: 'Camara': object allocated on the heap may not be aligned 16
+  Tu7_2010.vcxproj -> D:\Temp\examP2\Debug\Tu7.exe

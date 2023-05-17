@@ -2,9 +2,6 @@
 #include "juego.h"
 
 
-
-
-
 int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCmdLine, int nCmdShow)
 {
     UNREFERENCED_PARAMETER(hPrevInstance);
@@ -115,6 +112,7 @@ HRESULT CompileShaderFromFile(WCHAR* szFileName, LPCSTR szEntryPoint, LPCSTR szS
 //--------------------------------------------------------------------------------------
 HRESULT InitDevice()
 {
+    camara = new Camara;
     HRESULT hr = S_OK;
 
     RECT rc;
@@ -510,6 +508,20 @@ void Render()
     float ClearColor[4] = { 0.0f, 0.125f, 0.3f, 1.0f }; // red, green, blue, alpha
     g_pImmediateContext->ClearRenderTargetView(g_pRenderTargetView, ClearColor);
 
+
+    // inicio camara
+
+    camara->SetEye(-6.0f, 3.0f, -6.0f); // mueve la camara en el mundo
+    camara->SetAt(3.0f, 4.0f, 0.0f); // mueve hacia donde apunta la camara
+    g_View = XMMatrixLookAtLH(camara->GetEye(), camara->GetAt(), camara->GetUp());
+
+    CBNeverChanges cbNeverChanges;
+    cbNeverChanges.mView = XMMatrixTranspose(g_View);
+    g_pImmediateContext->UpdateSubresource(g_pCBNeverChanges, 0, NULL, &cbNeverChanges, 0, 0);
+
+    // fin camara
+
+
     //
     // Clear the depth buffer to 1.0 (max depth)
     //
@@ -536,6 +548,13 @@ void Render()
     g_pImmediateContext->PSSetSamplers(0, 1, &g_pSamplerLinear);
     g_pImmediateContext->DrawIndexed(36, 0, 0);
 
+
+    // cube 2
+    XMFLOAT3 movev = XMFLOAT3(0.0f, 2.0f, 4.0f);
+    XMMATRIX world2 = g_World * XMMatrixTranslationFromVector(XMLoadFloat3(&movev));
+    cb.mWorld = XMMatrixTranspose(world2);
+    g_pImmediateContext->UpdateSubresource(g_pCBChangesEveryFrame, 0, NULL, &cb, 0, 0);
+    g_pImmediateContext->DrawIndexed(36, 0, 0);
     //
     // Present our back buffer to our front buffer
     //

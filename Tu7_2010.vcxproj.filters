@@ -20,7 +20,6 @@
     <ClInclude Include="camara.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Tu7.cpp" />
     <ClCompile Include="juego.cpp" />
     <ClCompile Include="camara.cpp" />
   </ItemGroup>

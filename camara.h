@@ -1,10 +1,7 @@
 #pragma once
 #ifndef CAMARA_H
 #define CAMARA_H
-
-#include <DirectXMath.h>
-
-using namespace DirectX;
+#include "lib.h"
 
 class Camara
 {
